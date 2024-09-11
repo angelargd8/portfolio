@@ -42,11 +42,7 @@ function Aboutme(){
               height={80}
               className={styles.animatedImage}
               ></Image>
-              {/* <div className={styles.Info}>
-                <h1 className={styles.subtitle} >¡Hola! Soy</h1>
-                <h1 className={styles.subtitle}>Angela Garcia</h1>
-                <h3 className={styles.subtitle}>Estudiante de CS</h3>         
-            </div> */}
+
         </div>
         
         <NavBar/>
