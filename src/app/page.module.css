@@ -21,6 +21,7 @@
   position: relative;
   z-index: 1;
   animation: slideOut 2s ease-in-out;
+  margin-left: 15%;
 }
 .title{
   font-size: 6.5em;
@@ -38,7 +39,7 @@
   align-items: start;
   display: flex;
   z-index: 1;
-  margin-left: 10%;
+  margin-left: 15%;
   position: relative;
   
 }

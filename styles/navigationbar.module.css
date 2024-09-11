@@ -1,0 +1,29 @@
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: black;
+    /* right: 0; */
+    top: 0;
+    width: 11%;
+    height: 100%;
+    z-index: 3;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+  }
+  
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
