@@ -22,15 +22,12 @@
     position: relative;
     z-index: 1;
     margin-left: 32%;
-    /* background-color: purple; */
     margin-bottom: -60%;
 }
 .Info{
     margin-top: 10%;
     margin-left: 22%;
-    /* background-color: tomato; */
     grid-column: span 2;
-
 }
 .subtitle{
     font-size: 1.5em;
@@ -116,6 +113,19 @@ to {
     font-size: 2.2em;
     font-weight: 700;
     margin-top: 0%;
-    margin-left: 5%;
+    margin-left: 30%;
+}
+.Info{
+    margin-left: 35%;
+    margin-top: 30%;
+    grid-column: span 2;
+
+}
+.subtitle{
+    font-size: 1.1em;
+    margin-top: 3%;
+}
+.AboutmeInfo{
+    margin-top: 3%;
 }
 }
