@@ -11,6 +11,8 @@ function Projects(){
         <div className={styles.ContainerTitle}>
               <h1 className={styles.title}>Projects</h1>
         </div>
+        {/*hacer carrousel*/}
+
         <NavBar/>
         </>
     )
