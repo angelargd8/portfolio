@@ -27,3 +27,14 @@
   background-color: #ddd;
   color: black;
 }
+
+/*mobile*/
+@media (max-width: 700px) {
+  .navbar{
+    width: 20%;
+    z-index: 3;
+  }
+.navbar a {
+  font-size: small;
+}
+}
