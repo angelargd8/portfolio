@@ -1,4 +1,3 @@
-// import React, { useEffect, useState } from "react";
 import '../src/app/globals.css'
 import styles from "../styles/navigationbar.module.css";
 function NavBar(){
