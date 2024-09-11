@@ -15,7 +15,6 @@
 .ContainerOfContainerTitle{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    /* background-color: lawngreen; */
     position: relative;
 }
 .ContainerTitle{
