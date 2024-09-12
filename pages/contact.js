@@ -25,15 +25,8 @@ function Contact(){
               className={styles.animatedImage}
             ></Image>
             </div> 
-            
-            
-
-
         </div>
-
-        
-        
-
+            
         <NavBar/>
         </>
     )
