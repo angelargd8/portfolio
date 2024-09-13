@@ -16,6 +16,9 @@ function Carousel({ items }){
         console.log('Prev Slide:', (currentIndex - 1 + items.length) % items.length);
         setCurrentIndex((currentIndex) => (currentIndex - 1 + items.length) % items.length);
     };
+    const handleIframeClick = (href) => {
+        window.open(href, '_blank');
+    };
     return(
         <>        
         <div className={styles.Carousel}>
@@ -34,6 +37,7 @@ function Carousel({ items }){
                                 className={styles.Image} 
                                 ref={imageRef} 
                             />
+                            <div className={styles.IframeContainer} onClick={() => handleIframeClick(item.href)} >
                             <iframe 
                                 src={item.href} 
                                 title={item.title} 
@@ -41,6 +45,9 @@ function Carousel({ items }){
                                 width="1000" 
                                 height="500"
                             ></iframe>
+                            <button className={styles.IframeButton}  onClick={() => handleIframeClick(item.href)}>Visita el proyecto</button>
+                            </div>
+                            
                         </a>
                         </div>
                     )
