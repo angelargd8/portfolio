@@ -19,22 +19,24 @@ function Carousel({ items }){
     return(
         <>        
         <div className={styles.Carousel}>
-            <button onClick={prevSlide} className={`${styles.button} ${styles.prev}`}>Prev</button>
+            <button onClick={prevSlide} className={`${styles.button} ${styles.prev}`}>&lt;</button>
             <div className={styles.CarouselContent}>
             {/**  va a mostrar la imagen que coincida con index y current index*/
                 items.map((item, index) =>(
 
                     index === currentIndex &&(
-                        <div key={index}>
+                        <div key={index} >
                         {/* {console.log('Index:', index)}
                         {console.log('curr Index:', currentIndex)} */}
                         <h2>{item.title}</h2>
-                        <img 
-                        src={item.image} 
-                        alt={item.title} 
-                        className={styles.Image}
-                        ref={imageRef}
-                        />
+                        <a href={item.href || '#'} target="_blank" rel="noopener noreferrer">
+                            <img 
+                                src={item.image} 
+                                alt={item.title} 
+                                className={styles.Image} 
+                                ref={imageRef} 
+                            />
+                        </a>
                         </div>
                     )
 
@@ -43,7 +45,7 @@ function Carousel({ items }){
                 ))
             }
             </div>
-            <button onClick={nextSlide} className={`${styles.button} ${styles.next}`}>Next</button>
+            <button onClick={nextSlide} className={`${styles.button} ${styles.next}`}>&gt;</button>
         </div>
 
         </>
