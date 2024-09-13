@@ -28,12 +28,12 @@ function Carousel({ items }){
                         <div key={index} >
                         <h2>{item.title}</h2>
                         <a href={item.href || '#'} target="_blank" rel="noopener noreferrer"> 
-                            {/* <img 
+                            <img 
                                 src={item.image} 
                                 alt={item.title} 
                                 className={styles.Image} 
                                 ref={imageRef} 
-                            /> */}
+                            />
                             <iframe 
                                 src={item.href} 
                                 title={item.title} 
@@ -44,9 +44,6 @@ function Carousel({ items }){
                         </a>
                         </div>
                     )
-
-                    
-                    
                 ))
             }
             </div>
