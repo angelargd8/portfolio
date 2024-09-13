@@ -7,19 +7,16 @@ import Carousel from './carousel';
 
 
 function Projects(){
-
     const items = [
-        { src: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Fanimals%2Fmammals%2Ffacts%2Fdomestic-dog&psig=AOvVaw1-orEILIYJkmqi2h9YvYZW&ust=1726203240007000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDJ26nOvIgDFQAAAAAdAAAAABAE', alt: 'Slide 1' },
-        { src: 'https://via.placeholder.com/600x400', alt: 'Slide 2' },
-        { src: 'https://via.placeholder.com/600x400', alt: 'Slide 3' },
+        { image: 'https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_3x2.jpg', title: 'Slide 1'. href='https://www.akc.org/wp-content/uploads/2018/05/Three-Australian-Shepherd-puppies-sitting-in-a-field.jpg' },
+        { image: 'https://d3544la1u8djza.cloudfront.net/APHI/Blog/2021/07-06/small+white+fluffy+dog+smiling+at+the+camera+in+close-up-min.jpg', title: 'Slide 2' },
+        { image: 'https://www.akc.org/wp-content/uploads/2018/05/Three-Australian-Shepherd-puppies-sitting-in-a-field.jpg', title: 'Slide 3' },
     ];
-
     return(
         <>        
         <div className={styles.ContainerTitle}>
               <h1 className={styles.title}>Projects</h1>
         </div>
-        {/*hacer carousel*/}
         <div className={styles.Carousel}>
             <Carousel items = {items} />
         </div>
