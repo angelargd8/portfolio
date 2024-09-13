@@ -26,16 +26,21 @@ function Carousel({ items }){
 
                     index === currentIndex &&(
                         <div key={index} >
-                        {/* {console.log('Index:', index)}
-                        {console.log('curr Index:', currentIndex)} */}
                         <h2>{item.title}</h2>
-                        <a href={item.href || '#'} target="_blank" rel="noopener noreferrer">
-                            <img 
+                        <a href={item.href || '#'} target="_blank" rel="noopener noreferrer"> 
+                            {/* <img 
                                 src={item.image} 
                                 alt={item.title} 
                                 className={styles.Image} 
                                 ref={imageRef} 
-                            />
+                            /> */}
+                            <iframe 
+                                src={item.href} 
+                                title={item.title} 
+                                className={styles.Iframe}
+                                width="1000" 
+                                height="500"
+                            ></iframe>
                         </a>
                         </div>
                     )
