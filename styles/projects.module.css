@@ -1,9 +1,8 @@
 .ContainerTitle{
     position: relative;
     z-index: 1;
-    animation: slideOut 2s ease-in-out;
     margin-left: 10%;
-    animation: slideOut 2s ease-in-out;
+    animation: slideOut  1s ease-in-out;
 }
 
 .title{
