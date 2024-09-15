@@ -11,7 +11,9 @@
     margin-top: 0%;
     margin-left: 5%;
 }
-
+.title:hover{
+    animation: fadeIn 5s ease-in-out;
+ }
 .img{
     background-image: url("../public/assets/1.png");
 }
@@ -24,7 +26,7 @@
 
 @keyframes fadeIn {
     from {
-        opacity: 0;
+        opacity: 0.5;
     }
     to {
         opacity: 1;
@@ -70,7 +72,7 @@
       font-size: 2.2em;
       font-weight: 700;
       margin-top: 0%;
-      margin-left: 20%;
+      margin-left: 15%;
     }
     .Carousel{
         margin-left: 10%;

@@ -54,6 +54,10 @@ function Skills(){
             image: 'https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png', 
             title: '...',
         },
+        { 
+            image: 'https://itproger.com/img/tests/1567591805.svg', 
+            title: 'kotlin',
+        },
     ];
     const itemsDB = [
         { 

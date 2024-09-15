@@ -1,21 +1,23 @@
 import '../src/app/globals.css'
-import styles from "../styles/slider.module.css";
+import styles from "../styles/circles.module.css";
 import React, { useState } from 'react';
 
-function Slider({ items }){
+
+function Circles({ items }){
     return(
         <>        
-        <div className={styles.Slider}>
-            <div className={styles.SliderContent}>
+        <div className={styles.Circles}>
+            <div className={styles.CirclesContent}>
             {
                 items.map((item, index) =>(
-                        <div key={index} className={styles.inner} >
-                        {/* <h2>{item.title}</h2> */}
+                        <div key={index} className={styles.Circle}>
+                            <a href={item.href || '#'} target="_blank" rel="noopener noreferrer"> 
                             <img 
                                 src={item.image} 
                                 alt={item.title} 
                                 className={styles.Image} 
                             />
+                            </a>
                         </div>
                 ))
             }
@@ -26,4 +28,4 @@ function Slider({ items }){
     )
 }
 
-export default Slider;
+export default Circles;

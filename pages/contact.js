@@ -1,11 +1,34 @@
 // import React, { useEffect, useState } from "react";
 import '../src/app/globals.css'
 import styles from "../styles/contact.module.css";
+import Circles from './circles';
 import NavBar from "./navigationbar";
-import Image from "next/image";
 
 
 function Contact(){
+    const items = [
+        { 
+            image: "https://i.imgur.com/H6s5s3m.png", 
+            title: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/angelargd8/'
+        },
+        { 
+            image: 'https://i.imgur.com/6WpjMPa.png', 
+            title: 'Github', 
+            href: 'https://github.com/angelargd8/' 
+        },
+        
+        { 
+            image: 'https://i.imgur.com/CTFNCIO.png', 
+            title: 'gmail',
+            href: 'mailto:angelargd8@gmail.com'
+        },
+        { 
+            image: 'https://i.imgur.com/TsNKcWJ.png', 
+            title: 'instagram',
+            href: 'https://www.instagram.com/angelargd8/'
+        },
+    ];
     return(
         <>        
         <div className={styles.ContainerContact}>
@@ -14,19 +37,10 @@ function Contact(){
             <div className={styles.ContainerTitle}>
                 <h1 className={styles.title}>Contact</h1>
             </div>
-            
-            <div className={styles.ContainerImagen}>&nbsp;
-            <Image
-              src="/pics/173.jpeg"
-              alt="imagen"
-              layout="responsive"
-              width={800}
-              height={80}
-              className={styles.animatedImage}
-            ></Image>
-            </div> 
+            <div className={styles.ContainerObjects}>
+                <Circles items = {items} />
+            </div>
         </div>
-            
         <NavBar/>
         </>
     )
