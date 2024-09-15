@@ -31,6 +31,7 @@
     height: 90px;
     background-size: cover;
     background-position: center;
+    animation: rotate 1s ease-in-out;
 }
 .Image:hover{
     /* transform: scale(1.1); */
@@ -41,7 +42,15 @@
     0% { transform: translateX(-600%); }
     100% { transform: translateX(400%); }
 }
-
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }

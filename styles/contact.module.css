@@ -1,61 +1,50 @@
-.Container {
-    display: grid;
-    grid-template-columns: 1fr;
-    top: 0;
-    margin-left: 7% ;
+.ContainerContact {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+}
+.Container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+
 }
 .ContainerTitle{
     position: relative;
     z-index: 1;
-    margin-left: 10%;
     animation: slideOut 2s ease-in-out;
-}
-.ContainerContact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    /* background-color: #2e2e2e; */
-    background-color: #000000be;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    margin-top: 10%;
 }
 
 .ContainerObjects{
-    position: relative;
     display: flex;
     width: auto;
-    height: auto;
-    align-items: center;
+    height: 100%;
+    /* background-color: #2e2e2e; */
+    background-color: #000000;
+    color: #fff;
+    flex-direction: column;
     justify-content: center;
-    background-color: limegreen;
+    align-items: center;
 }
 
 .title{
     font-size: 6.5em;
     font-weight: 700;
     margin-top: 0%;
-    margin-left: 15%;
+    margin-left: 5%;
+}
+.text{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
 }
 
-.ContainerImagen{
-    width: 90%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 0%;
-    align-items: start;
-    display: flex;
-    z-index: 3;
-    position: relative;
-    right: -10%;
-    animation: slideOut2 2s ease-in-out;
-}
-.animatedImage {
-    animation: slideIn 2s ease-in-out;
-}
 
 .title:hover{
     animation: fadeIn 5s ease-in-out;
@@ -70,7 +59,7 @@
     }
     }
     
-    @keyframes slideIn {
+@keyframes slideIn {
     from {
         transform: translateX(-100%);
         opacity: 0;
@@ -79,7 +68,7 @@
         transform: translateX(15);
         opacity: 1;
     }
-    }
+}
     
     @keyframes slideOut {
     from {

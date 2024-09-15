@@ -32,15 +32,20 @@ function Contact(){
     return(
         <>        
         <div className={styles.ContainerContact}>
+        
+            <div className={styles.Container}>
+                <div className={styles.ContainerTitle}>
+                    <h1 className={styles.title}>Contact</h1>
+                </div>
+                <div className={styles.ContainerObjects}>
+                    {/* <p className={styles.text}>
+                            Feel free to reach out to me through
+                            any of the following platforms:
+                    </p> */}
+                    <Circles items = {items} />
+                </div>
+            </div>
         </div> 
-        <div className={styles.Container}>
-            <div className={styles.ContainerTitle}>
-                <h1 className={styles.title}>Contact</h1>
-            </div>
-            <div className={styles.ContainerObjects}>
-                <Circles items = {items} />
-            </div>
-        </div>
         <NavBar/>
         </>
     )
