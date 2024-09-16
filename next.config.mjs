@@ -3,6 +3,7 @@ const nextConfig = {
     images: {
         domains: [
             'upload.wikimedia.org',
+            'i.imgur.com',
             'encrypted-tbn0.gstatic.com',
             'i.pinimg.com',
             'images.credly.com',
