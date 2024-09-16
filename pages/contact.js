@@ -35,7 +35,7 @@ function Contact(){
         
             <div className={styles.Container}>
                 <div className={styles.ContainerTitle}>
-                    <h1 className={styles.title}>Contact</h1>
+                    <h1 className={styles.title}>Contact me</h1>
                 </div>
                 <div className={styles.ContainerObjects}>
                     {/* <p className={styles.text}>

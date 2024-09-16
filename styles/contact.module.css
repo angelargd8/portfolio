@@ -20,8 +20,8 @@
 
 .ContainerObjects{
     display: flex;
-    width: auto;
-    height: 100%;
+    width: 110%;
+    height: 200%;
     /* background-color: #2e2e2e; */
     background-color: #000000;
     color: #fff;
@@ -44,7 +44,6 @@
     margin-bottom: 5%;
 
 }
-
 
 .title:hover{
     animation: fadeIn 5s ease-in-out;
@@ -99,5 +98,8 @@
       font-weight: 700;
       margin-top: 0%;
       margin-left: 20%;
+    }
+    .ContainerObjects{
+        height: 400%;
     }
 }
