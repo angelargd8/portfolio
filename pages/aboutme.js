@@ -14,7 +14,7 @@ function Aboutme(){
                         <h1 className={styles.title}>About me</h1>
                     </div>
                     <div className={styles.Info}>
-                        <h1 className={styles.subtitle} >¡Hi! I'm</h1>
+                        <h1 className={styles.subtitle} >¡Hi! I&apos;m</h1>
                         <h1 className={styles.subtitle}>Angela Garcia</h1>
                         <h3 className={styles.subtitle}>CS Student</h3>  
                         <p className={styles.AboutmeInfo}>
@@ -22,7 +22,6 @@ function Aboutme(){
                         In this portfolio, you can find my recent projects and contact information. 
                         Regarding my hobbies, I enjoy writing poetry, listening to music, 
                         and learning new things.
-
                         </p>
 
                     </div>

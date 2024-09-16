@@ -13,8 +13,8 @@ function Circles({ items }){
             <div className={styles.CirclesContent}>
             {
                 items && items.map((item, index) =>(
-                    <a href={item.href || '#'} target="_blank" rel="noopener noreferrer" className={styles.a} > 
-                        <div key={index} className={styles.Circle} style={{ backgroundColor: backgroundColors[index % backgroundColors.length] }}>
+                    <a  key={index} href={item.href || '#'} target="_blank" rel="noopener noreferrer" className={styles.a} > 
+                        <div className={styles.Circle} style={{ backgroundColor: backgroundColors[index % backgroundColors.length] }}>
                             
                             <div className={styles.ImageContainer}>
                                 <Image 
