@@ -1,6 +1,6 @@
 import '../src/app/globals.css'
 import styles from "../styles/carousel.module.css";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useRef } from 'react';
 
 function Carousel({ items }){

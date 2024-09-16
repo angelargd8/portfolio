@@ -1,10 +1,8 @@
-// import React, { useEffect, useState } from "react";
 import '../src/app/globals.css'
 import styles from "../styles/skills.module.css";
 import NavBar from "./navigationbar";
-import Image from "next/image";
 import Slider from './slider';
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 function Skills(){
     const itemsBackend = [

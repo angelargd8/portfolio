@@ -1,9 +1,8 @@
-// import React, { useEffect, useState } from "react";
 import '../src/app/globals.css'
 import styles from "../styles/aboutme.module.css";
 import NavBar from "./navigationbar";
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 
 

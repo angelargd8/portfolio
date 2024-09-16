@@ -1,6 +1,6 @@
 import '../src/app/globals.css'
 import styles from "../styles/circles.module.css";
-import React, { useState,useEffect } from 'react';
+import React from 'react';
 
 
 function Circles({ items }){
