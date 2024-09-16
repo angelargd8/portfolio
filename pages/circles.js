@@ -17,10 +17,12 @@ function Circles({ items }){
                         <div key={index} className={styles.Circle} style={{ backgroundColor: backgroundColors[index % backgroundColors.length] }}>
                             
                             <div className={styles.ImageContainer}>
-                                <img 
+                                <Image 
                                     src={item.image} 
                                     alt={item.title} 
-                                    className={styles.Image} 
+                                    className={styles.Image}
+                                    width={50}
+                                    height={50}
                                 />
                             </div>
                            

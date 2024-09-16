@@ -13,7 +13,7 @@ function Slider({ items }){
                         <div key={index} className={styles.inner} >
                         {/* <h2>{item.title}</h2> */}
                         <a href={item.href || '#'} target="_blank" rel="noopener noreferrer" className={styles.a} > 
-                            <img 
+                            <Image 
                                 src={item.image} 
                                 alt={item.title} 
                                 className={styles.Image} 

@@ -32,11 +32,13 @@ function Carousel({ items }){
                         <div key={index} >
                         <h2>{item.title}</h2>
                         <a href={item.href || '#'} target="_blank" rel="noopener noreferrer"> 
-                            <img 
+                            <Image 
                                 src={item.image} 
                                 alt={item.title} 
                                 className={styles.Image} 
                                 ref={imageRef} 
+                                width={500}
+                                height={500}
                             />
                             <div className={styles.IframeContainer} onClick={() => handleIframeClick(item.href)} >
                             <iframe 
