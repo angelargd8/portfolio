@@ -25,7 +25,7 @@ function Carousel({ items }){
             <button onClick={prevSlide} className={`${styles.button} ${styles.prev}`}>&lt;</button>
             <div className={styles.CarouselContent}>
             {/**  va a mostrar la imagen que coincida con index y current index*/
-                items.map((item, index) =>(
+                items && items.map((item, index) =>(
 
                     index === currentIndex &&(
                         <div key={index} >

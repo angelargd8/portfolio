@@ -12,7 +12,7 @@ function Circles({ items }){
         <div className={styles.CirclesContainer}>
             <div className={styles.CirclesContent}>
             {
-                items.map((item, index) =>(
+                items && items.map((item, index) =>(
                     <a href={item.href || '#'} target="_blank" rel="noopener noreferrer" className={styles.a} > 
                         <div key={index} className={styles.Circle} style={{ backgroundColor: backgroundColors[index % backgroundColors.length] }}>
                             
