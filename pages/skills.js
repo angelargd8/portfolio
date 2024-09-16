@@ -4,6 +4,8 @@ import styles from "../styles/skills.module.css";
 import NavBar from "./navigationbar";
 import Image from "next/image";
 import Slider from './slider';
+import React, { useEffect, useState } from "react";
+
 function Skills(){
     const itemsBackend = [
         { 

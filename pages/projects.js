@@ -3,6 +3,8 @@ import '../src/app/globals.css'
 import styles from "../styles/projects.module.css";
 import NavBar from "./navigationbar";
 import Carousel from './carousel';
+import React, { useEffect, useState } from "react";
+
 
 function Projects(){
     const items = [

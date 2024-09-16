@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import NavBar from "../../pages/navigationbar";
+import React, { useEffect, useState } from "react";
+
 
 export default function Home() {
   return (

@@ -1,4 +1,4 @@
-// import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import '../src/app/globals.css'
 import styles from "../styles/contact.module.css";
 import Circles from './circles';
