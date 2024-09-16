@@ -86,7 +86,7 @@ function Skills(){
             title: 'oracle',
         },
         { 
-            image: 'https://www.freeiconspng.com/thumbs/phpmyadmin-icon/phpmyadmin-icon-6.png', 
+            image: 'https://jobtech.jp/wp-content/uploads/phpmyadmin-2.png', 
             title: 'phpmyadmin',
         },
         { 

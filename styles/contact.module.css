@@ -101,5 +101,6 @@
     }
     .ContainerObjects{
         height: 400%;
+        background-color: transparent;
     }
 }

@@ -14,7 +14,8 @@ const nextConfig = {
             'itproger.com',
             'cdn.icon-icons.com',
             'www.freeiconspng.com',
-            'mariadb.com'
+            'mariadb.com',
+            'jobtech.jp'
           ],
     },
   };
