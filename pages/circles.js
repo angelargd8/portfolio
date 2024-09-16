@@ -1,7 +1,7 @@
 import '../src/app/globals.css'
 import styles from "../styles/circles.module.css";
 import React from 'react';
-
+import Image from 'next/image';
 
 function Circles({ items }){
     

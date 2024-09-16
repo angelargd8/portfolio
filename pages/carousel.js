@@ -2,6 +2,7 @@ import '../src/app/globals.css'
 import styles from "../styles/carousel.module.css";
 import React, { useState } from "react";
 import { useRef } from 'react';
+import Image from 'next/image';
 
 function Carousel({ items }){
 
@@ -22,7 +23,7 @@ function Carousel({ items }){
     return(
         <>        
         <div className={styles.Carousel}>
-            <button onClick={prevSlide} className={`${styles.button} ${styles.prev}`}>&lt;</button>
+            <button onClick={prevSlide} className={`${styles.button} ${styles.prev}`}>prev</button>
             <div className={styles.CarouselContent}>
             {/**  va a mostrar la imagen que coincida con index y current index*/
                 items && items.map((item, index) =>(
@@ -54,7 +55,7 @@ function Carousel({ items }){
                 ))
             }
             </div>
-            <button onClick={nextSlide} className={`${styles.button} ${styles.next}`}>&gt;</button>
+            <button onClick={nextSlide} className={`${styles.button} ${styles.next}`}>next</button>
         </div>
 
         </>

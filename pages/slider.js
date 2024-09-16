@@ -1,6 +1,7 @@
 import '../src/app/globals.css'
 import styles from "../styles/slider.module.css";
 import React from 'react';
+import Image from 'next/image';
 
 function Slider({ items }){
     return(
@@ -16,6 +17,8 @@ function Slider({ items }){
                                 src={item.image} 
                                 alt={item.title} 
                                 className={styles.Image} 
+                                width={90}
+                                height={90}
                             />
                          </a>
                         </div>

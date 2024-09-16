@@ -4,8 +4,6 @@ import NavBar from "./navigationbar";
 import Image from "next/image";
 import React from "react";
 
-
-
 function Aboutme(){
     return(
         <>

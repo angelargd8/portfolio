@@ -1,16 +1,18 @@
 import '../src/app/globals.css'
 import styles from "../styles/navigationbar.module.css";
 import React from "react";
+import Link from 'next/link';
 
 function NavBar(){
     return(
         <>
         <div className={styles.navbar} >
-          <a href="/">Home</a>
-          <a href="/aboutme">About me</a>
-          <a href="/projects">Projects</a>
-          <a href="/skills">Skills</a>
-          <a href="/contact">Contact</a>
+          <Link href="/">Home</Link>
+          <Link href="/aboutme">About me</Link>
+          <Link href="/projects">Projects</Link>
+          <Link href="/skills">Skills</Link>
+          <Link href="/contact">Contact</Link>
+
         </div>
         </>
     )
