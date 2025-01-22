@@ -28,7 +28,7 @@ function Skills(){
             href: 'https://expressjs.com/es/',
         },
         { 
-            image: 'https://seeklogo.com/images/E/elephpant-mascot-php-logo-4C78D1AC4E-seeklogo.com.png?v=638245916460000000', 
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png', 
             title: 'Php',
             href: 'https://www.php.net/',
         },

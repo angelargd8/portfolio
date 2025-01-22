@@ -38,11 +38,7 @@ function Contact(){
                     <h1 className={styles.title}>Contact me</h1>
                 </div>
                 <div className={styles.ContainerObjects}>
-                    {/* <p className={styles.text}>
-                            Feel free to reach out to me through
-                            any of the following platforms:
-                    </p> */}
-                    <Circles items = {items} />
+                        <Circles items = {items} />
                 </div>
             </div>
         </div> 
