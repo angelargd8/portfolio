@@ -12,9 +12,7 @@ export default function Home() {
             <Image
               src="/pics/4.jpg"
               alt="imagen"
-              layout="responsive"
-              width={500}
-              height={50}
+              layout="fill"
               className={styles.animatedImage}
               ></Image>
             </div>
