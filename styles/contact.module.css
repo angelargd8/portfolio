@@ -103,4 +103,8 @@
         height: 400%;
         background-color: transparent;
     }
+    .ContainerTitle, .title:hover {
+        animation: none; 
+    }
+    
 }
