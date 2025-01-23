@@ -37,7 +37,7 @@
     border-right: 0.15em solid black; 
     white-space: nowrap; 
     margin: 0.5%;
-    /* animation: typing 5s steps(40, end), blink-caret 1s step-end infinite; */
+/* animation: typing 5s steps(40, end), blink-caret 1s step-end infinite; */
     animation: typing 3.5s steps(60, end) 2s forwards, blink-caret 0.75s step-end infinite 2s;
 }
 .AboutmeInfo{
@@ -187,10 +187,12 @@ to {
 .subtitle{
     font-size: 1.1em;
     margin-top: 3%;
+    animation: typing 3.5s steps(80, end) 2s forwards, blink-caret 0.75s step-end infinite 2s;animation: typing 3.5s steps(80, end) 2s forwards, blink-caret 0.75s step-end infinite 2s;
 }
 .AboutmeInfo{
     margin-top: 3%;
 }
+
 @keyframes typing {
     from {
         width: 0;
@@ -199,4 +201,9 @@ to {
         width:  90%;
     }
 }
+
+.animatedImage, .AboutmeInfo:hover, .subtitle:hover, .ContainerText {
+    animation: none; 
+}
+
 }
