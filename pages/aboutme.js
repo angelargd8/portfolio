@@ -18,7 +18,7 @@ function Aboutme(){
                         <h1 className={styles.subtitle}>Angela Garcia</h1>
                         <h3 className={styles.subtitle}>CS Student</h3>  
                         <p className={styles.AboutmeInfo}>
-                        I am in my fourth year of the Computer Science program at UVG.
+                        I am in my fifth year of the Computer Science program at UVG.
                         In this portfolio, you can find my recent projects and contact information. 
                         Regarding my hobbies, I enjoy writing poetry, listening to music, 
                         and learning new things.
@@ -29,15 +29,16 @@ function Aboutme(){
 
             </div>
             
-        
+            <div className={styles.Bar}>
             <Image
-              src="/pics/91.jpg"
+              src="/pics/2.jpeg"
               alt="imagen"
               layout="responsive"
               width={800}
               height={80}
               className={styles.animatedImage}
               ></Image>
+            </div>
 
         </div>
         

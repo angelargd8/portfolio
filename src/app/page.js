@@ -17,8 +17,8 @@ export default function Home() {
               ></Image>
             </div>
             <div className={styles.ContainerTitle}>
-              <h1 className={styles.title}>Port</h1>
-              <h1 className={styles.title}>folio.</h1> 
+              <h1 className={styles.title}>Angela</h1>
+              <h1 className={styles.title}>Garcia.</h1> 
             </div>
             <NavBar/>
 

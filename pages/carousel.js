@@ -1,13 +1,10 @@
 import '../src/app/globals.css'
 import styles from "../styles/carousel.module.css";
 import React, { useState } from "react";
-import { useRef } from 'react';
-import Image from 'next/image';
 
 function Carousel({ items }){
 
     const [currentIndex, setCurrentIndex] = useState(0);
-    const imageRef = useRef(null);
 
     const nextSlide = () => {
         console.log('Next Slide:', (currentIndex + 1) % items.length);
@@ -16,9 +13,6 @@ function Carousel({ items }){
     const prevSlide = () => {
         console.log('Prev Slide:', (currentIndex - 1 + items.length) % items.length);
         setCurrentIndex((currentIndex) => (currentIndex - 1 + items.length) % items.length);
-    };
-    const handleIframeClick = (href) => {
-        window.open(href, '_blank');
     };
     return(
         <>        
@@ -29,29 +23,27 @@ function Carousel({ items }){
                 items && items.map((item, index) =>(
 
                     index === currentIndex &&(
-                        <div key={index} >
-                        <h2>{item.title}</h2>
-                        <a href={item.href || '#'} target="_blank" rel="noopener noreferrer"> 
-                            <Image 
-                                src={item.image} 
-                                alt={item.title} 
-                                className={styles.Image} 
-                                ref={imageRef} 
-                                width={500}
-                                height={500}
-                            />
-                            <div className={styles.IframeContainer} onClick={() => handleIframeClick(item.href)} >
-                            <iframe 
-                                src={item.href} 
-                                title={item.title} 
-                                className={styles.Iframe}
-                                width="1000" 
-                                height="500"
-                            ></iframe>
-                            <button className={styles.IframeButton}  onClick={() => handleIframeClick(item.href)}>Visita el proyecto</button>
+                        <div key={index} className={styles.Card}>
+                            <div className={styles.IframeWrapper}>
+                                <iframe 
+                                    src={item.href} 
+                                    title={item.title} 
+                                    className={styles.Iframe}
+                                    loading="lazy"
+                                ></iframe>
                             </div>
-                            
-                        </a>
+                            <div className={styles.CardBody}>
+                                <h3 className={styles.CardTitle}>{item.title}</h3>
+                                <p className={styles.CardDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <a
+                                    className={styles.CardButton}
+                                    href="https://github.com/angelargd8"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Visitar repositorio
+                                </a>
+                            </div>
                         </div>
                     )
                 ))

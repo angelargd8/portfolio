@@ -27,7 +27,8 @@
   position: relative;
   z-index: 1;
   animation: slideOut 2s ease-in-out;
-  margin-left: 35%;
+  margin-left: 20%;
+
 }
 .title{
   font-size: 6.5em;
@@ -122,7 +123,7 @@ a.secondary {
 /*mobile*/
 @media (max-width: 700px) {
   .title{
-    font-size: 6em;
+    font-size: 5em;
     font-weight: 700;
     margin-top: 0%;
     margin-left: 5%;
