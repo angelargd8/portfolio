@@ -32,6 +32,11 @@ function Skills(){
             title: 'Php',
             href: 'https://www.php.net/',
         },
+        { 
+            image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png', 
+            title: 'C',
+            href: 'https://en.wikipedia.org/wiki/C_(programming_language)',
+        },
     ];
     const itemsFront = [
         { 
@@ -61,7 +66,7 @@ function Skills(){
             href: 'https://es.reactjs.org/',
         },
         { 
-            image: 'https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png', 
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQalVXWnXVG0s9Aftm6mAq6Ei8Phjp8JU5QZOgs7suzJQ8vcTIlf3HohK6EXTwnGFiZtjo&usqp=CAU', 
             title: 'nextjs',
             href: 'https://nextjs.org/',
         },
