@@ -25,23 +25,32 @@ function Carousel({ items }){
                     index === currentIndex &&(
                         <div key={index} className={styles.Card}>
                             <div className={styles.IframeWrapper}>
-                                <iframe 
-                                    src={item.href} 
-                                    title={item.title} 
-                                    className={styles.Iframe}
-                                    loading="lazy"
-                                ></iframe>
+                                {item.imageOnly ? (
+                                    <img
+                                        src={item.image}
+                                        alt={item.title}
+                                        className={styles.Image}
+                                        loading="lazy"
+                                    />
+                                ) : (
+                                    <iframe 
+                                        src={item.href} 
+                                        title={item.title} 
+                                        className={styles.Iframe}
+                                        loading="lazy"
+                                    ></iframe>
+                                )}
                             </div>
                             <div className={styles.CardBody}>
                                 <h3 className={styles.CardTitle}>{item.title}</h3>
-                                <p className={styles.CardDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p className={styles.CardDescription}>{item.description}</p>
                                 <a
                                     className={styles.CardButton}
-                                    href="https://github.com/angelargd8"
+                                    href={item.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    Visitar repositorio
+                                    Visit project
                                 </a>
                             </div>
                         </div>

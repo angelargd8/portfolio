@@ -21,7 +21,7 @@
 .ContainerTitle{
     position: relative;
     z-index: 1;
-    margin-left: 32%;
+    margin-left: 40%;
     margin-bottom: -60%;
 }
 .Info{
@@ -38,6 +38,7 @@
     border-right: 0.15em solid black; 
     white-space: nowrap; 
     margin: 0.5%;
+    margin-left: 10%;
 /* animation: typing 5s steps(40, end), blink-caret 1s step-end infinite; */
     animation: typing 3.5s steps(60, end) 2s forwards, blink-caret 0.75s step-end infinite 2s;
 }
@@ -47,6 +48,7 @@
     font-weight: 600;
     margin-right: 20%;
     color: #7b7575;
+    margin-left: 10%;
 }
 .title{
     font-size: 6.5em;
