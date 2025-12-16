@@ -1,21 +1,56 @@
-import '../src/app/globals.css'
+"use client";
+
+import "../src/app/globals.css";
 import styles from "../styles/navigationbar.module.css";
-import React from "react";
-import Link from 'next/link';
+import React, { useState } from "react";
+import Link from "next/link";
 
-function NavBar(){
-    return(
-        <>
-        <div className={styles.navbar} >
-          <Link href="/">Home</Link>
-          <Link href="/aboutme">About me</Link>
-          <Link href="/projects">Projects</Link>
-          <Link href="/skills">Skills</Link>
-          <Link href="/contact">Contact</Link>
+function NavBar() {
+  const [isOpen, setIsOpen] = useState(false);
 
-        </div>
-        </>
-    )
+  const toggleMenu = () => setIsOpen((prev) => !prev);
+  const closeMenu = () => setIsOpen(false);
+
+  return (
+    <>
+      <button
+        className={`${styles.hamburger} ${isOpen ? styles.active : ""}`}
+        onClick={toggleMenu}
+        aria-label="Toggle navigation menu"
+        aria-expanded={isOpen}
+      >
+        <span />
+        <span />
+        <span />
+      </button>
+
+      {isOpen && (
+        <div
+          className={styles.backdrop}
+          onClick={closeMenu}
+          aria-hidden="true"
+        />
+      )}
+
+      <div className={`${styles.navbar} ${isOpen ? styles.open : ""}`}>
+        <Link href="/" onClick={closeMenu}>
+          Home
+        </Link>
+        <Link href="/aboutme" onClick={closeMenu}>
+          About me
+        </Link>
+        <Link href="/projects" onClick={closeMenu}>
+          Projects
+        </Link>
+        <Link href="/skills" onClick={closeMenu}>
+          Skills
+        </Link>
+        <Link href="/contact" onClick={closeMenu}>
+          Contact
+        </Link>
+      </div>
+    </>
+  );
 }
 
 export default NavBar;

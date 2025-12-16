@@ -25,7 +25,7 @@
     margin-bottom: -60%;
 }
 .Info{
-    margin-top: 10%;
+    margin-top: 4%;
     margin-left: 22%;
     grid-column: span 2;
 }
@@ -43,7 +43,7 @@
     animation: typing 3.5s steps(60, end) 2s forwards, blink-caret 0.75s step-end infinite 2s;
 }
 .AboutmeInfo{
-    padding-top: 5%;
+    padding-top: 2%;
     font-size: 1em;
     font-weight: 600;
     margin-right: 20%;
@@ -66,7 +66,7 @@
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 0%;
+    margin-top: -4%;
     align-items: start;
     display: flex;
     z-index: 1;
@@ -186,38 +186,96 @@ to {
 
 /*mobile*/
 @media (max-width: 700px) {
-.title{
-    font-size: 2.2em;
-    font-weight: 700;
-    margin-top: 0%;
-    margin-left: 30%;
-}
-.Info{
-    margin-left: 35%;
-    margin-top: 30%;
-    grid-column: span 2;
-
-}
-.subtitle{
-    font-size: 1.1em;
-    margin-top: 3%;
-    animation: typing 3.5s steps(80, end) 2s forwards, blink-caret 0.75s step-end infinite 2s;animation: typing 3.5s steps(80, end) 2s forwards, blink-caret 0.75s step-end infinite 2s;
-}
-.AboutmeInfo{
-    margin-top: 3%;
-}
-
-@keyframes typing {
-    from {
-        width: 0;
+    .Container{
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        top: auto;
+        padding: 0px;
+        min-height: 100vh;
+        gap: 16px;
+        align-items: flex-start;
     }
-    to {
-        width:  90%;
-    }
-}
+    .ContainerOfContainerTitle{
+        grid-template-columns: 1fr;
+        position: relative;
+        justify-content: flex-start;
+        padding: 16px;
 
-.animatedImage, .AboutmeInfo:hover, .subtitle:hover, .ContainerText {
-    animation: none; 
-}
+
+    }
+    .ContainerTitle{
+        margin-left: 0;
+        margin-bottom: 4px;
+        height: fit-content;
+        
+    }
+    .title{
+        font-size: 2.2em;
+        font-weight: 700;
+        margin-top: -5%;
+        margin-left: 37%;
+    }
+    .Info{
+        margin-top: 30%;
+        grid-column: span 1;
+        margin-left: 0;
+        justify-content: flex-start;
+        padding: 6px;
+
+
+    }
+    .subtitle{
+        
+        font-size: 1.1em;
+        margin-top: 1%;
+        margin-left: 0;
+        width: 95%;
+        animation: typing 3.5s steps(80, step-end) 2s forwards, blink-caret 0.75s step-end infinite 2s;
+    }
+    .AboutmeInfo{
+        margin-top: 1%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 4px;
+    }
+    .ContainerImagen{
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .Bar{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        height: auto;
+        height: 100vh;
+        width: 100%;
+    }
+    .animatedImage{
+        margin-top: 70%;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width:  90%;
+        }
+    }
+
+    .animatedImage, .AboutmeInfo:hover, .subtitle:hover, .ContainerText {
+        animation: none; 
+    }
+
+
 
 }

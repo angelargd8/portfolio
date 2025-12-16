@@ -83,10 +83,19 @@
       font-size: 2.2em;
       font-weight: 700;
       margin-top: 0%;
-      margin-left: 15%;
+      margin-left: 10%;
+      animation: slideOut  1s ease-in-out;
+      
     }
     .Carousel{
         margin: 24px auto 0;
         width: 95%;
+    }
+    .ContainerTitle{
+        position: relative;
+        z-index: 1;
+        margin-left: 14%;
+        animation: none;
+    
     }
 }
