@@ -16,6 +16,7 @@
     position: relative;
     z-index: 1;
     animation: slideOut 2s ease-in-out;
+    background-color: #fff;
 }
 
 .ContainerObjects{
@@ -93,18 +94,55 @@
     
 /*mobile*/
 @media (max-width: 700px) {
+    .ContainerContact {
+        position: absolute;
+        padding: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom:0;
+
+        background-color: #000000;
+        height: 100vh;
+        margin-left: 0;
+        width: 100vw;
+    }
+
+    .ContainerTitle{
+        position: relative;
+        z-index: 1;
+        animation: slideOut 2s ease-in-out;
+        background-color: #fff;
+    }
+
     .title{
       font-size: 2.2em;
       font-weight: 700;
       margin-top: 0%;
-      margin-left: 20%;
+      margin-left: 0%;
     }
-    .ContainerObjects{
-        height: 400%;
-        background-color: transparent;
+
+    .ContainerTitle{
+        position: relative;
+        z-index: 1;
+        margin-left: 14%;
+        animation: none;
+        min-height: 90px;
+        padding: 10px 12px;
+        display: flex;
+        align-items: center;
     }
+
     .ContainerTitle, .title:hover {
         animation: none; 
+    }
+    
+    .ContainerObjects{
+        width: 100%;
+        height: auto;
+        min-height: 70vh;
+        padding: 48px 0;
+        box-sizing: border-box;
     }
     
 }
