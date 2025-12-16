@@ -16,6 +16,21 @@ function Projects(){
             imageOnly: true
         },
         { 
+            image: "/assets/microcuenca.png", 
+            title: "Microcuenca's Website",
+            href: 'https://microcuencasdeploy-rai6ygiw3-marchmols-projects-04a83ad4.vercel.app/',
+            link: 'https://microcuencasdeploy-rai6ygiw3-marchmols-projects-04a83ad4.vercel.app/',
+            description: 'The Comprehensive Evaluation Project for the Contreras Micro-Watershed is an interdisciplinary initiative dedicated to water and environmental conservation. At “Save the Micro-Watershed”, we are a passionate team of ecologists, educators, and volunteers committed to protecting these vital ecosystems that sustain life on Earth. As part of this mission, I coordinated the computing team responsible for designing and developing our modern web platform using Next.js. This platform enables us to share knowledge, organize collaborative efforts, and inspire collective action to safeguard micro-watersheds for future generations.',
+            imageOnly: true
+        },
+        { 
+            image: "", 
+            title: 'Remote Server MCPs Chatbot',
+            href: 'https://www.youtube.com/embed/c710uRN_phY',
+            link: 'https://github.com/angelargd8/proyecto1-redes',
+            description: 'This project implements a CLI chatbot that acts as an MCP host and connects to multiple MCP servers (tools) to perform real actions: create and manage local Git repositories, read/write the filesystem, verify and fix grammar , and explore YouTube trends. The chatbot uses an LLM to understand natural-language prompts and trigger tool calls automatically.'
+        },
+        { 
             image: "https://i.imgur.com/Hu2NlE7.png", 
             title: 'Only CSS Animation',
             href: 'https://labb4-1.vercel.app/',

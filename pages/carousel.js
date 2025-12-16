@@ -38,6 +38,8 @@ function Carousel({ items }){
                                         title={item.title} 
                                         className={styles.Iframe}
                                         loading="lazy"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowFullScreen
                                     ></iframe>
                                 )}
                             </div>
