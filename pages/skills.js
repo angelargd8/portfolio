@@ -7,7 +7,7 @@ import React from "react";
 function Skills(){
     const itemsBackend = [
         { 
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/935px-Python-logo-notext.svg.png", 
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png", 
             title: 'Python',
             href: 'https://www.python.org/',
         },
