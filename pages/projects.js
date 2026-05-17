@@ -25,6 +25,43 @@ function Projects(){
         },
         { 
             image: "", 
+            title: 'Expiration Date',
+            href: 'https://www.youtube.com/embed/KZ4zSgrDsSo?si=VkTHZfp_GzxN52tf',
+            link: 'https://github.com/angelargd8/ExpirationDate',
+            description: 'This project implements the new system event in Unity, scriptable objects, animator controller, scene management and manager'
+        },
+        { 
+            image: "", 
+            title: 'Sleep Simulator',
+            href: 'https://www.youtube.com/embed/VnwY8vEvdms?si=HCY1MxITWuAmrToA',
+            link: 'https://github.com/angelargd8/SleepSimulator',
+            description: 'This project is a game, utilizing bootstraper and scene management in Unity'
+        },
+        { 
+            image: "", 
+            title: 'B-rush',
+            href: 'https://www.youtube.com/embed/Xg_iSiYMsZo',
+            link: 'https://github.com/angelargd8/B-rush',
+            description: 'This project is a game and uses save and load system'
+        },
+        { 
+            image: "", 
+            title: 'SneakRush',
+            href: 'https://www.youtube.com/embed/qNrtTjbpsJs',
+            link: 'https://github.com/angelargd8/SneakRush',
+            description: 'This project is a game and uses scriptable objects'
+        },
+        { 
+            image: "", 
+            title: 'MazeRush',
+            href: 'https://www.youtube.com/embed/uYraQ0wTaW4?si=E66TuBAvd_HwOHTw',
+            link: 'https://github.com/angelargd8/MazeRush',
+            description: 'This project is a game and uses the animator controller in Unity'
+        },
+
+        
+        { 
+            image: "", 
             title: 'Remote Server MCPs Chatbot',
             href: 'https://www.youtube.com/embed/c710uRN_phY',
             link: 'https://github.com/angelargd8/proyecto1-redes',
