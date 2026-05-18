@@ -28,7 +28,7 @@ function Projects(){
             title: 'Expiration Date',
             href: 'https://www.youtube.com/embed/KZ4zSgrDsSo?si=VkTHZfp_GzxN52tf',
             link: 'https://github.com/angelargd8/ExpirationDate',
-            description: 'This project implements the new system event in Unity, scriptable objects, animator controller, scene management and manager'
+            description: 'This project implements the new system event in Unity, scriptable objects, animator controller, scene management'
         },
         { 
             image: "", 
