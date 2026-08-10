@@ -28,14 +28,14 @@ function Projects(){
             title: 'Expiration Date',
             href: 'https://youtu.be/n4asfQivXko',
             link: 'https://github.com/angelargd8/ExpirationDate',
-            description: 'This project implements the new system event in Unity, scriptable objects, animator controller, scene management \n DEMO: https://angelargd8.itch.io/expirationdate'
+            description: 'This project implements the new system event in Unity, scriptable objects, animator controller, scene management, object pooling \n DEMO: https://angelargd8.itch.io/expirationdate'
         },
         { 
             image: "", 
             title: 'Sleep Simulator',
             href: 'https://www.youtube.com/embed/VnwY8vEvdms?si=HCY1MxITWuAmrToA',
             link: 'https://github.com/angelargd8/SleepSimulator',
-            description: 'This project is a game, utilizing bootstraper and scene management in Unity'
+            description: 'This project is a game, utilizing object pooling, bootstraper and scene management in Unity'
         },
         { 
             image: "", 
