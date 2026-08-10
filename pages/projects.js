@@ -26,7 +26,7 @@ function Projects(){
         { 
             image: "", 
             title: 'Expiration Date',
-            href: 'https://youtu.be/n4asfQivXko',
+            href: 'https://youtu.be/n4asfQivXko?si=BcZoS0Fu5dHP0_OJ',
             link: 'https://github.com/angelargd8/ExpirationDate',
             description: 'This project implements the new system event in Unity, scriptable objects, animator controller, scene management, object pooling \n DEMO: https://angelargd8.itch.io/expirationdate'
         },
