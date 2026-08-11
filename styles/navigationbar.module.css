@@ -22,7 +22,8 @@
     width: 100%;
   }
   
-.navbar a:hover {
+.navbar a:hover,
+.navbar a.activeLink {
   background-color: #ddd;
   color: black;
 }
