@@ -6,7 +6,7 @@ import React from "react";
 function Skills({ showNav = true }){
     const itemsBackend = [
         { 
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png", 
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1280px-Python-logo-notext.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail", 
             title: 'Python',
             href: 'https://www.python.org/',
         },
@@ -27,9 +27,9 @@ function Skills({ showNav = true }){
             href: 'https://expressjs.com/es/',
         },
         { 
-            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png', 
-            title: 'Php',
-            href: 'https://www.php.net/',
+            image: 'https://www.jetbrains.com/guide/assets/csharp-logo-265a149e.svg', 
+            title: 'C#',
+            href: 'https://dotnet.microsoft.com/es-es/languages/csharp',
         },
         { 
             image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png', 
@@ -77,7 +77,7 @@ function Skills({ showNav = true }){
     ];
     const itemsDB = [
         { 
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1985px-Postgresql_elephant.svg.png", 
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/250px-Postgresql_elephant.svg.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail", 
             title: 'postgresql',
         },
         { 
@@ -90,7 +90,7 @@ function Skills({ showNav = true }){
             title: 'oracle',
         },
         { 
-            image: 'https://jobtech.jp/wp-content/uploads/phpmyadmin-2.png', 
+            image: 'https://jeffreymaji1996.wordpress.com/wp-content/uploads/2015/06/php.png', 
             title: 'phpmyadmin',
         },
         { 

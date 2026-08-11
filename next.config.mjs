@@ -77,6 +77,16 @@ const nextConfig = {
         hostname: "w7.pngwing.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "explore-feed.github.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "jeffreymaji1996.wordpress.com",
+        pathname: "/**",
+      },
     ],
   },
 };
