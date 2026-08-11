@@ -4,6 +4,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
+        hostname: "cdn.jsdelivr.net",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
         hostname: "upload.wikimedia.org",
         pathname: "/**",
       },
@@ -85,6 +90,11 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "jeffreymaji1996.wordpress.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
         pathname: "/**",
       },
     ],

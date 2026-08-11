@@ -26,11 +26,7 @@ function Skills({ showNav = true }){
             title: 'Express',
             href: 'https://expressjs.com/es/',
         },
-        { 
-            image: 'https://www.jetbrains.com/guide/assets/csharp-logo-265a149e.svg', 
-            title: 'C#',
-            href: 'https://dotnet.microsoft.com/es-es/languages/csharp',
-        },
+        
         { 
             image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png', 
             title: 'C',
@@ -98,6 +94,25 @@ function Skills({ showNav = true }){
             title: 'mariaDB',
         },
     ];
+    const itemsVG = [
+        { 
+            image: "https://avatars.githubusercontent.com/u/426196?s=200&v=4", 
+            title: 'Unity',
+            href: 'http://unity.com/es',
+        },
+        { 
+            image: 'https://www.jetbrains.com/guide/assets/csharp-logo-265a149e.svg', 
+            title: 'C#',
+            href: 'https://dotnet.microsoft.com/es-es/languages/csharp',
+        },
+        
+        { 
+            image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/lua.webp', 
+            title: 'lua',
+            href: 'https://www.lua.org/',
+        },
+
+    ];
     return(
         <>        
         <div className={styles.ContainerTitle}>
@@ -112,6 +127,9 @@ function Skills({ showNav = true }){
 
             <h2 className={styles.subtitle}>Base de datos</h2>
             <Slider items = {itemsDB} />
+
+            <h2 className={styles.subtitle}>Videojuegos</h2>
+            <Slider items = {itemsVG} />
 
         </div>
         {showNav && <NavBar/>}
