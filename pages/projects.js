@@ -26,7 +26,7 @@ function Projects(){
         { 
             image: "", 
             title: 'Expiration Date',
-            href: 'https://youtu.be/n4asfQivXko?si=BcZoS0Fu5dHP0_OJ',
+            href: 'https://www.youtube.com/embed/n4asfQivXko?si=MpowJ2RgTZHkeMvX',
             link: 'https://github.com/angelargd8/ExpirationDate',
             description: 'This project implements the new system event in Unity, scriptable objects, animator controller, scene management, object pooling \n DEMO: https://angelargd8.itch.io/expirationdate'
         },
@@ -57,6 +57,20 @@ function Projects(){
             href: 'https://www.youtube.com/embed/uYraQ0wTaW4?si=E66TuBAvd_HwOHTw',
             link: 'https://github.com/angelargd8/MazeRush',
             description: 'This project is a game and uses the animator controller in Unity'
+        },
+        { 
+            image: "", 
+            title: 'Chambax',
+            href: 'https://www.youtube.com/embed/B0S8_BBty0Y?si=67caGARpfCe5vHmF',
+            link: 'https://github.com/DanielRasho/Chambax',
+            description: 'This project is a 2D game '
+        },
+        { 
+            image: "", 
+            title: 'Flybax',
+            href: 'https://smaugthur.itch.io/flybax',
+            link: 'https://github.com/DanielRasho/Flybax',
+            description: 'This project is a 2D game '
         },
 
         
