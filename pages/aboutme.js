@@ -1,10 +1,9 @@
-import '../src/app/globals.css'
 import styles from "../styles/aboutme.module.css";
 import NavBar from "./navigationbar";
 import Image from "next/image";
 import React from "react";
 
-function Aboutme(){
+function Aboutme({ showNav = true }){
     return(
         <>
         <div className={styles.Container} >
@@ -42,7 +41,7 @@ function Aboutme(){
 
         </div>
         
-        <NavBar/>
+        {showNav && <NavBar/>}
         </>
     )
 }

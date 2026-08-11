@@ -1,4 +1,3 @@
-import '../src/app/globals.css'
 import styles from "../styles/carousel.module.css";
 import React, { useState } from "react";
 

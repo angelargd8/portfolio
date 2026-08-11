@@ -1,4 +1,3 @@
-import '../src/app/globals.css'
 import styles from "../styles/slider.module.css";
 import React from 'react';
 import Image from 'next/image';

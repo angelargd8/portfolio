@@ -1,6 +1,5 @@
 "use client";
 
-import "../src/app/globals.css";
 import styles from "../styles/navigationbar.module.css";
 import React, { useState } from "react";
 import Link from "next/link";
@@ -33,19 +32,19 @@ function NavBar() {
       )}
 
       <div className={`${styles.navbar} ${isOpen ? styles.open : ""}`}>
-        <Link href="/" onClick={closeMenu}>
+        <Link href="/#home" onClick={closeMenu}>
           Home
         </Link>
-        <Link href="/aboutme" onClick={closeMenu}>
+        <Link href="/#aboutme" onClick={closeMenu}>
           About me
         </Link>
-        <Link href="/projects" onClick={closeMenu}>
+        <Link href="/#projects" onClick={closeMenu}>
           Projects
         </Link>
-        <Link href="/skills" onClick={closeMenu}>
+        <Link href="/#skills" onClick={closeMenu}>
           Skills
         </Link>
-        <Link href="/contact" onClick={closeMenu}>
+        <Link href="/#contact" onClick={closeMenu}>
           Contact
         </Link>
       </div>

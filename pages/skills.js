@@ -1,10 +1,9 @@
-import '../src/app/globals.css'
 import styles from "../styles/skills.module.css";
 import NavBar from "./navigationbar";
 import Slider from './slider';
 import React from "react";
 
-function Skills(){
+function Skills({ showNav = true }){
     const itemsBackend = [
         { 
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png", 
@@ -115,7 +114,7 @@ function Skills(){
             <Slider items = {itemsDB} />
 
         </div>
-        <NavBar/>
+        {showNav && <NavBar/>}
         </>
     )
 }

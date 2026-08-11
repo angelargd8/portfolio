@@ -1,11 +1,10 @@
 import React from "react";
-import '../src/app/globals.css'
 import styles from "../styles/contact.module.css";
 import Circles from './circles';
 import NavBar from "./navigationbar";
 
 
-function Contact(){
+function Contact({ showNav = true }){
     const items = [
         { 
             image: "https://i.imgur.com/H6s5s3m.png", 
@@ -42,7 +41,7 @@ function Contact(){
                 </div>
             </div>
         </div> 
-        <NavBar/>
+        {showNav && <NavBar/>}
         </>
     )
 }

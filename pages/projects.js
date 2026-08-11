@@ -1,11 +1,10 @@
 // import React, { useEffect, useState } from "react";
-import '../src/app/globals.css'
 import styles from "../styles/projects.module.css";
 import NavBar from "./navigationbar";
 import Carousel from './carousel';
 import React from "react";
 
-function Projects(){
+function Projects({ showNav = true }){
     const items = [
         { 
             image: "/assets/deep.gif", 
@@ -122,7 +121,7 @@ function Projects(){
             </div>
         </div>
 
-        <NavBar/>
+        {showNav && <NavBar/>}
         </>
     )
 }
