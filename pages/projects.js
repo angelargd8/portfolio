@@ -65,13 +65,13 @@ function Projects({ showNav = true }){
             link: 'https://github.com/DanielRasho/Chambax',
             description: 'This project is a 2D game '
         },
-        // { 
-        //     image: "", 
-        //     title: 'Flybax',
-        //     href: 'https://smaugthur.itch.io/flybax',
-        //     link: 'https://github.com/DanielRasho/Flybax',
-        //     description: 'This project is a 2D game '
-        // },
+        { 
+            image: "", 
+            title: 'Flybax',
+            href: 'https://www.youtube.com/embed/66nw4-1jGdk?si=6MHEWbvE9iPaOiKa',
+            link: 'https://github.com/DanielRasho/Flybax', //'https://smaugthur.itch.io/flybax'
+            description: 'This project is a 3D game'
+        },
 
         
         { 
